@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>TempRect</title>
+</head>
+<body>
+<form action="Rect">
+    <p>
+        <input type="number" name="a" placeholder="Ширина" size="10"/>
+        <input type="number" name="b" placeholder="Длинна" size="10"/>
+        <button type="submit">Посчитать площадь</button>
+    </p>
+</form>
+<form action="Rect2">
+    <p>
+        <input type="number" name="q" placeholder="Ширина" size="10"/>
+        <input type="number" name="w" placeholder="Длинна" size="10"/>
+        <button type="submit">Посчитать периметр</button>
+    </p>
+</form>
+Ответ: <span th:text = "${result}"/>
+
+<form action="Index.html">
+    <p>
+        <button type="submit">На начальную страницу</button>
+    </p>
+</form>
+</body>
+</html>
